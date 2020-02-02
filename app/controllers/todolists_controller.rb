@@ -33,7 +33,6 @@ class TodolistsController < ApplicationController
 		# binding.pry
 		redirect_to todolist_path(list.id)
 	end
-
 	private
 
 	def list_params
