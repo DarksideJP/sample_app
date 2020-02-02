@@ -6,5 +6,7 @@ get "top"=>"homes#top"
 
 post "todolists" => "todolists#create"
 
+
+get "todolists" => "todolist#index"
 end
 
